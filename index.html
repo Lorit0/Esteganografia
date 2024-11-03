@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Esteganografía con JavaScript</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <h1>Esteganografía en Imágenes</h1>
+
+        <input type="file" id="imageLoader" accept="image/*" />
+        <canvas id="imageCanvas"></canvas>
+
+        <div class="controls">
+            <textarea
+                id="message"
+                rows="4"
+                cols="50"
+                placeholder="Escribe el mensaje a ocultar"
+            ></textarea>
+            <br />
+            <button id="encodeBtn">Ocultar Mensaje</button>
+            <button id="decodeBtn">Extraer Mensaje</button>
+            <button id="downloadBtn">Descargar Imagen</button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

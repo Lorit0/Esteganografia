@@ -1,0 +1,77 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e2f;
+    color: #c9d1d9;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #81a1c1;
+}
+
+/* Estilo para el canvas */
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #3b4252;
+    background-color: #2e3440;
+    object-fit: contain;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos para los controles */
+.controls {
+    margin-top: 20px;
+}
+
+textarea {
+    background-color: #2e3440;
+    color: #eceff4;
+    border: 2px solid #3b4252;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+    resize: none;
+}
+
+button {
+    background-color: #5e81ac;
+    color: #eceff4;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #81a1c1;
+}
+
+input[type="file"] {
+    background-color: #2e3440;
+    color: #eceff4;
+    padding: 10px;
+    border: 2px solid #3b4252;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color: #5e81ac;
+    color: #eceff4;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #81a1c1;
+}
